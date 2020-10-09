@@ -1,0 +1,6 @@
+create table student(
+id serial primary key,
+name text,
+rollNo text,
+phoneNo text,
+email text);
