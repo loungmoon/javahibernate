@@ -1,5 +1,4 @@
 package com.innoveller.test_hibernate;
-
 public class Student {
     private int id;
     private String name;

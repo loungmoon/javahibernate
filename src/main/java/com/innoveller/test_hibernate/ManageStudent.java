@@ -1,15 +1,12 @@
 package com.innoveller.test_hibernate;
-
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-
 import java.util.Iterator;
 import java.util.List;
-
-public class StudentInfo {
+public class ManageStudent {
     SessionFactory factory = new Configuration().configure().buildSessionFactory();
 
     public void addStudent(String name,String rollno,String phoneno,String email){
